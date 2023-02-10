@@ -22,7 +22,13 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+
+    flex-direction: column;
 }
+  .container {
+    flex: 1 0 auto;
+    /* padding: 0px 35px 10px 35px; */
+  }
 
 .determinate {
     height: 100%;
@@ -31,9 +37,6 @@ body{
     display: flex; 
     background-color: #8BD7D2;
     font-size: 16px;
-}
-.container{
-    padding: 0px 35px 10px 35px;
 }
 
 .container header{
